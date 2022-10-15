@@ -11,7 +11,14 @@ function App() {
         onClick={() => {
           dispatch({ type: "increment" });
         }}
-        style={{ margin: 10 }}
+        style={{
+          color: "white",
+          margin: 10,
+          backgroundColor: "green",
+          borderWidth: 0,
+          padding: 10,
+          borderRadius: 5,
+        }}
       >
         increment
       </button>
