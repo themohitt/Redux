@@ -26,6 +26,14 @@ function App() {
         onClick={() => {
           dispatch({ type: "decrement" });
         }}
+        style={{
+          color: "white",
+          margin: 10,
+          backgroundColor: "green",
+          borderWidth: 0,
+          padding: 10,
+          borderRadius: 5,
+        }}
       >
         decrement
       </button>
@@ -33,9 +41,28 @@ function App() {
         onClick={() => {
           dispatch({ type: "plusFive", payload: 5 });
         }}
-        style={{ margin: 10 }}
+        style={{
+          color: "white",
+          margin: 10,
+          backgroundColor: "green",
+          borderWidth: 0,
+          padding: 10,
+          borderRadius: 5,
+        }}
       >
         Add 5
+      </button>
+      <button
+        style={{
+          color: "white",
+          margin: 10,
+          backgroundColor: "green",
+          borderWidth: 0,
+          padding: 10,
+          borderRadius: 5,
+        }}
+      >
+        Toggle Counter
       </button>
     </div>
   );
